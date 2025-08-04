@@ -33,14 +33,14 @@
 ## How to run the app?
 
 ## APIs
-- api/v1/users/register     POST    Register a user   
-- api/v1/users/login        POST    login an existing user
-- api/v1/users/profile      GET     get user's profile
-- api/v1/users/logout               logout a user
-- api/v1/workouts/          POST    create a new workout
-- api/v1/workouts/          GET     get all workouts for a user
-- api/v1/workouts/:id       GET     get a specific workout
-- api/v1/workouts/:id       PUT     update a specific workout
-- api/v1/workouts/:id       DELETE  delete a specific workout
-- api/v1/goals              POST    create a new goal
-- api/v1/goals              GET     get all goals for a user
+- api/v1/users/register    - POST    (Register a user)   
+- api/v1/users/login       - POST    (login an existing user)
+- api/v1/users/profile     - GET     (get user's profile)
+- api/v1/users/logout               (logout a user)
+- api/v1/workouts/         - POST    (create a new workout)
+- api/v1/workouts/         - GET     (get all workouts for a user)
+- api/v1/workouts/:id      - GET     (get a specific workout)
+- api/v1/workouts/:id      - PUT     (update a specific workout)
+- api/v1/workouts/:id      - DELETE  (delete a specific workout)
+- api/v1/goals             - POST    (create a new goal)
+- api/v1/goals             - GET     (get all goals for a user)
