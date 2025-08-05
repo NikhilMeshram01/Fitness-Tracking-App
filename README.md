@@ -44,3 +44,31 @@
 - api/v1/workouts/:id      - DELETE  (delete a specific workout)
 - api/v1/goals             - POST    (create a new goal)
 - api/v1/goals             - GET     (get all goals for a user)
+
+## MongoDB Collections
+1. Users
+    - email
+    - password
+    - firstname
+    - lastname
+    - dob
+    - gender (male, female, other)
+    - height
+    - weight
+    - profilePicture
+    - level (beginner, intermediate, advanced)
+2. Workouts
+    - type (cardio, strength, flexibility, yoga, etc)
+    - userId (Ref to Users)
+    - duration
+    - caloriesBurned
+    - date
+3. Goals
+    - userId (Ref to Users)
+    - type (weight loss, gain)
+    - targetValue (number value for loss/gain)
+    - currentValue
+    - unit (kg, lbs)
+    - startDate
+    - endDate
+    - isAchieved
